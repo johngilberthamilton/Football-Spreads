@@ -1,1 +1,3 @@
 # Football-Spreads
+
+This is a model I've built and iterated on a few times over the years to help understand relative performance of different teams in the NFL. There are lots of flavors, but essentially it boils down to solving for point values of different teams to indicate their relative quality or caliber based on the points they scored and the points scored against them. I use solver + RMSE to find these estimations. The one attached here has a second version that models offensive and defensive values separately. There are lots of ways to iterate on this- you can ignore certain games (like the first two weeks or thurday night games), you can do the same thing but for yards gained for/against, you can factor in additional data like the weather and the time of day.
